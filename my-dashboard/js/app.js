@@ -110,26 +110,5 @@ function render() {
   })
 }
 
-// jQuery实现筛选交互
-$('.filter-btn').on('click', function () {
-  $('.filter-btn').css({
-    'background': '#ecf0f1',
-    'color': '#333'
-  })
-  $(this).css({
-    'background': '#5470c6',
-    'color': '#fff'
-  })
-  appState.currentFilter = $(this).data('type')
-  render()
-})
-
-// 窗口大小变化时自动重绘图表
-window.addEventListener('resize', () => {
-  if (appState.status === 'success') {
-    echarts.init(document.getElementById('echartBox')).resize()
-  }
-})
-
 // 启动程序
 loadData()
