@@ -1,0 +1,58 @@
+[
+  {
+    "name": "世界杯",
+    "type": "足球",
+    "year": 2022,
+    "audience": 50000,
+    "hot": true
+  },
+  {
+    "name": "欧洲杯",
+    "type": "足球",
+    "year": 2024,
+    "audience": 32000,
+    "hot": true
+  },
+  {
+    "name": "NBA总决赛",
+    "type": "篮球",
+    "year": 2025,
+    "audience": 18000,
+    "hot": true
+  },
+  {
+    "name": "奥运会",
+    "type": "综合",
+    "year": 2024,
+    "audience": 45000,
+    "hot": true
+  },
+  {
+    "name": "中超联赛",
+    "type": "足球",
+    "year": 2025,
+    "audience": 12000,
+    "hot": false
+  },
+  {
+    "name": "CBA总决赛",
+    "type": "篮球",
+    "year": 2025,
+    "audience": 8000,
+    "hot": false
+  },
+  {
+    "name": "温网",
+    "type": "网球",
+    "year": 2025,
+    "audience": 5000,
+    "hot": false
+  },
+  {
+    "name": "F1中国站",
+    "type": "赛车",
+    "year": 2025,
+    "audience": 6000,
+    "hot": false
+  }
+]
