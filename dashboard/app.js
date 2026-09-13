@@ -4,7 +4,7 @@ const loadData = async () => {
   $('#status').text('加载中...').show();
   try {
     const response = await fetch('data/books.json');
-    if (!response.ok) {
+    if (!response.ok)  {
       throw new Error('HTTP ' + response.status);
     }
     const data = await response.json();
